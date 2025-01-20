@@ -1,0 +1,14 @@
+if choice1 == 'left':
+    choice2 = input('you have landed in the lake, do you want to "swim" or "wait"') .lower()
+    if choice2 == "wait":
+        choice3 = input("you have now reached a door. Which door would you take, red, yellow or blue?")
+        if choice3 == "yellow":
+            print("you win!!!")
+        if choice3 == "red":
+            print("you landed in fire, game over!!!")
+        elif choice3 == "blue":
+            print("you've landed in a devils den, game over!!!")
+    else:
+        print("you've ended up in the belly of a whale, game over!!!")
+else:
+    print("you got eaten up by a lion, game over!!!")
